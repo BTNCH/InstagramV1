@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mystagram</title>
+    <link rel=stylesheet href="./index.css"/>
+</head>
+<body>
+    <h1>Mystagram</h1>
+    <input type="text" class="search" placeholder="Search..">
+    
+    
+    <div class="controls">
+        <label for="spacing">Spacing:</label>
+        <input
+        id="spacing"
+        type="range"
+        name="spacing"
+        min="10"
+        max="100"
+        value="10"
+        data-sizing="px"
+        />
+
+        <label for="blur">Blur:</label>
+        <input
+        id="blur"
+        type="range"
+        name="blur"
+        min="0"
+        max="25"
+        value="0"
+        data-sizing="px"
+        />
+
+        <label for="color">color:</label>
+        <input
+        id="color"
+        type="color"
+        name="base"
+        value="#000000"
+      
+        />
+        </div>
+        <script src="./index.js"></script>
+        <div class="gallery"></div>
+</body>
+</html>
